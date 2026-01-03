@@ -828,7 +828,7 @@ def main():
         st.markdown("---")
         
         st.subheader("📊 분석 설정")
-        burn_in = st.slider("Burn-in Period (일)", 7, 30, 14)
+        burn_in = st.slider("Burn-in Period (일)", 1, 30, 14)
         
         period_options = {
             "최근 1년": 365,
